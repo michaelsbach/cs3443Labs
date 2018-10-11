@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainFXMLController">
+   <children>
+      <AnchorPane layoutX="58.0" layoutY="173.0" prefHeight="250.0" prefWidth="300.0">
+         <children>
+            <TextArea layoutY="-1.0" prefHeight="250.0" prefWidth="300.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="448.0" layoutY="173.0" prefHeight="250.0" prefWidth="300.0">
+         <children>
+            <TextArea prefHeight="250.0" prefWidth="300.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="448.0" layoutY="476.0" prefHeight="250.0" prefWidth="300.0">
+         <children>
+            <TextArea layoutY="-6.0" prefHeight="250.0" prefWidth="300.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="61.0" layoutY="469.0" prefHeight="250.0" prefWidth="300.0">
+         <children>
+            <TextArea layoutY="14.0" prefHeight="250.0" prefWidth="300.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="173.0" layoutY="14.0" prefHeight="110.0" prefWidth="455.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="19.0" layoutY="12.0" prefHeight="87.0" prefWidth="418.0" text="School Name " textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="378.0" layoutY="741.0" mnemonicParsing="false" onAction="#handle" text="SAVE" />
+      <TilePane layoutX="300.0" layoutY="300.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
